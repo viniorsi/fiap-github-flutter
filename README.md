@@ -6,7 +6,7 @@ FIAP - Desenvolvimento Cross Platform - 3SIS
 Este é um projeto Flutter que permite examinar informações de um repositório GitHub de forma rápida e sem esforço. Você pode usar este aplicativo para inserir o nome do repositório que deseja acessar e visualizar as informações sobre ele.
 
 ### Desenvolvimento Cross Platform
-  - [ ] Arquitetura e Configuração do Projeto
+  - [x] Arquitetura e Configuração do Projeto
   - [ ] Componentes e Telas
   - [ ] Gestão de Estado - Bloc
   - [ ] Injeção de Dependência - GetIt
