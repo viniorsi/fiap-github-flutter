@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:github/constants/theme.dart';
+import 'package:github/screens/search_screen.dart';
 
 void main() {
   runApp(const GitHubApp());
@@ -15,16 +16,9 @@ class GitHubApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: themeLight,
       darkTheme: themeDark,
-      home: const EmptyPage(),
+      home: const search_screen(),
     );
   }
 }
 
-class EmptyPage extends StatelessWidget {
-  const EmptyPage({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
